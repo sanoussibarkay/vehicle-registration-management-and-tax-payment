@@ -1,0 +1,17 @@
+textarea{
+
+  width: 400px;
+  height: 80px;
+  background-color: #fff;
+  resize: none;
+}
+button{
+  width: 100px;
+  height: 30px;
+  background-color: pink;
+  border:none;
+  color: pink;
+  font-family: arial;
+  font-weight: 400px;
+  cursor: pointer;
+}
