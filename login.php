@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $connection=mysqli_connect("localhost","root","","vehicle management");
+    $connection=mysqli_connect("remotemysql.com","mxGxQeDMmY","29L092KTIJ","mxGxQeDMmY");
 
     $msg="";
     if(isset($_POST['submit'])){
