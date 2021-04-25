@@ -1,5 +1,5 @@
 <?php
-    $connection= mysqli_connect('localhost','root','','vehicle management');
+   $connection=mysqli_connect("remotemysql.com","oLK33sA5lz","pVYs7yUo1W","oLK33sA5lz");
     session_start();
 
     $msg="";
