@@ -15,7 +15,7 @@
 	    <th></th>
     </tr>
       <?php
-       $conn=mysqli_connect("remotemysql.com","mxGxQeDMmY","29L092KTIJ","mxGxQeDMmY"); or die("Error connecting to database: ".mysql_error());
+       $conn=mysqli_connect("remotemysql.com","mxGxQeDMmY","29L092KTIJ","mxGxQeDMmY") or die("Error connecting to database: ".mysql_error());
           mysqli_select_db($conn,"mxGxQeDMmY") or die(mysql_error());
 
       		$query = $_POST['search'];
