@@ -2,7 +2,7 @@
 
    $id= $_GET['id'];
 
-   $conn=mysqli_connect('localhost','root','','vehicle management');
+   $conn=mysqli_connect("remotemysql.com","mxGxQeDMmY","29L092KTIJ","mxGxQeDMmY");
 
    $sql="DELETE FROM `booking` WHERE booking_id='$id'";
     echo $sql;
