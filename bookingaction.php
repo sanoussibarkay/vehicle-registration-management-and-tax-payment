@@ -1,5 +1,5 @@
 <?php
-   $connection=mysqli_connect("remotemysql.com","oLK33sA5lz","pVYs7yUo1W","oLK33sA5lz");
+  $connection=mysqli_connect("remotemysql.com","mxGxQeDMmY","29L092KTIJ","mxGxQeDMmY");
     session_start();
 
     $msg="";
