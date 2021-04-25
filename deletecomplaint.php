@@ -2,7 +2,7 @@
 
    $id= $_GET['id'];
 
-   $conn=mysqli_connect("remotemysql.com","oLK33sA5lz","pVYs7yUo1W","oLK33sA5lz");
+   $conn=mysqli_connect("remotemysql.com","mxGxQeDMmY","29L092KTIJ","mxGxQeDMmY");
 
    $sql="DELETE FROM `comments` WHERE comment_id='$id'";
     echo $sql;
